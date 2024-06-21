@@ -1,0 +1,45 @@
+.animate-from-bottom {
+  position: relative;
+  animation: fromBottom 1s ease-in-out forwards;
+  color: #fff;
+}
+
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container-fluid.custom-container {
+  height: 400px;
+  margin-top: 3%;
+  padding: 8%;
+  background-color: #2B3035;
+  text-align: center; /* Center the text horizontally */
+}
+
+
+.btn{
+  background-color: #2B3035;
+  color: #fff;
+}
+.contact{
+  color: #2B3035;
+  text-align: center;
+  position: relative;
+  animation: fromBottom 1s ease-in-out forwards;
+
+}
+.col-md-6{
+  margin-left: 20%;
+}
+
+.col-12{
+  margin-left: 20%;
+  width: 200px;
+}
+
